@@ -1,6 +1,7 @@
 print("WHILE LOOPING")
 
 num = int(input("Enter the Number of Rows : "))
+
 row = 0
 
 while row < num:
