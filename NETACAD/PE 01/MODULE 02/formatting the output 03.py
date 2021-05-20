@@ -1,0 +1,20 @@
+###################
+print("higher:")
+###################
+
+print("        *")
+print("       * *")
+print("      *   *")
+print("     *     *")
+print("    *       *")
+print("   *         *")
+print("  *           *")
+print(" *             *")
+print("******     ******")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *     *")
+print("     *******")
