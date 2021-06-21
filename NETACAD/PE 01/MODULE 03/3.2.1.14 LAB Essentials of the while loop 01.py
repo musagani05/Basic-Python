@@ -28,3 +28,8 @@ while in_layer <= blocks:
     in_layer += 1
 
 print("The height of the pyramid:", height)
+
+'''
+In layer 1,tingginya 1,blok dikurangi 1
+In layer 2,tingginya 2,blok dikurangi 2
+'''
