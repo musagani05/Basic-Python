@@ -1,7 +1,8 @@
-my_list = [10, 1, 8, 3, 5]
-total = 0
+list_1 = ["A", "B", "C"]
+list_2 = list_1[:]
+list_3 = list_2[:]
 
-for i in range(len(my_list)):
-    total += my_list[i]
+del list_1[0]
+del list_2[0]
 
-print(total)
+print(list_3)
