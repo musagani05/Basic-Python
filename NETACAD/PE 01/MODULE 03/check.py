@@ -1,8 +1,10 @@
-list_1 = ["A", "B", "C"]
-list_2 = list_1[:]
-list_3 = list_2[:]
+temps = [[0.0 for h in range(24)] for d in range(31)]
 
-del list_1[0]
-del list_2[0]
+highest = -100.0
 
-print(list_3)
+for day in temps:
+    for temp in day:
+        if temp > highest:
+            highest = temp
+
+print("The highest temperature was : ", highest)
